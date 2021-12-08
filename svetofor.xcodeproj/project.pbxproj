@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CACBF1C02761075200942D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBF1BF2761075200942D33 /* AppDelegate.swift */; };
+		CACBF1C22761075200942D33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBF1C12761075200942D33 /* SceneDelegate.swift */; };
+		CACBF1C42761075200942D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBF1C32761075200942D33 /* ViewController.swift */; };
+		CACBF1C72761075200942D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACBF1C52761075200942D33 /* Main.storyboard */; };
+		CACBF1C92761076100942D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACBF1C82761076100942D33 /* Assets.xcassets */; };
+		CACBF1CC2761076100942D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACBF1CA2761076100942D33 /* LaunchScreen.storyboard */; };
+		CACBF1D72761076100942D33 /* svetoforTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBF1D62761076100942D33 /* svetoforTests.swift */; };
+		CACBF1E22761076100942D33 /* svetoforUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBF1E12761076100942D33 /* svetoforUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CACBF1D32761076100942D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CACBF1B42761075200942D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CACBF1BB2761075200942D33;
+			remoteInfo = svetofor;
+		};
+		CACBF1DE2761076100942D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CACBF1B42761075200942D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CACBF1BB2761075200942D33;
+			remoteInfo = svetofor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CACBF1BC2761075200942D33 /* svetofor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = svetofor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACBF1BF2761075200942D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CACBF1C12761075200942D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CACBF1C32761075200942D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CACBF1C62761075200942D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CACBF1C82761076100942D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CACBF1CB2761076100942D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CACBF1CD2761076100942D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACBF1D22761076100942D33 /* svetoforTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = svetoforTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACBF1D62761076100942D33 /* svetoforTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = svetoforTests.swift; sourceTree = "<group>"; };
+		CACBF1D82761076100942D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACBF1DD2761076100942D33 /* svetoforUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = svetoforUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACBF1E12761076100942D33 /* svetoforUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = svetoforUITests.swift; sourceTree = "<group>"; };
+		CACBF1E32761076100942D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACBF1B92761075200942D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACBF1CF2761076100942D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACBF1DA2761076100942D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CACBF1B32761075200942D33 = {
+			isa = PBXGroup;
+			children = (
+				CACBF1BE2761075200942D33 /* svetofor */,
+				CACBF1D52761076100942D33 /* svetoforTests */,
+				CACBF1E02761076100942D33 /* svetoforUITests */,
+				CACBF1BD2761075200942D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CACBF1BD2761075200942D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACBF1BC2761075200942D33 /* svetofor.app */,
+				CACBF1D22761076100942D33 /* svetoforTests.xctest */,
+				CACBF1DD2761076100942D33 /* svetoforUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACBF1BE2761075200942D33 /* svetofor */ = {
+			isa = PBXGroup;
+			children = (
+				CACBF1BF2761075200942D33 /* AppDelegate.swift */,
+				CACBF1C12761075200942D33 /* SceneDelegate.swift */,
+				CACBF1C32761075200942D33 /* ViewController.swift */,
+				CACBF1C52761075200942D33 /* Main.storyboard */,
+				CACBF1C82761076100942D33 /* Assets.xcassets */,
+				CACBF1CA2761076100942D33 /* LaunchScreen.storyboard */,
+				CACBF1CD2761076100942D33 /* Info.plist */,
+			);
+			path = svetofor;
+			sourceTree = "<group>";
+		};
+		CACBF1D52761076100942D33 /* svetoforTests */ = {
+			isa = PBXGroup;
+			children = (
+				CACBF1D62761076100942D33 /* svetoforTests.swift */,
+				CACBF1D82761076100942D33 /* Info.plist */,
+			);
+			path = svetoforTests;
+			sourceTree = "<group>";
+		};
+		CACBF1E02761076100942D33 /* svetoforUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CACBF1E12761076100942D33 /* svetoforUITests.swift */,
+				CACBF1E32761076100942D33 /* Info.plist */,
+			);
+			path = svetoforUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CACBF1BB2761075200942D33 /* svetofor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACBF1E62761076100942D33 /* Build configuration list for PBXNativeTarget "svetofor" */;
+			buildPhases = (
+				CACBF1B82761075200942D33 /* Sources */,
+				CACBF1B92761075200942D33 /* Frameworks */,
+				CACBF1BA2761075200942D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svetofor;
+			productName = svetofor;
+			productReference = CACBF1BC2761075200942D33 /* svetofor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CACBF1D12761076100942D33 /* svetoforTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACBF1E92761076100942D33 /* Build configuration list for PBXNativeTarget "svetoforTests" */;
+			buildPhases = (
+				CACBF1CE2761076100942D33 /* Sources */,
+				CACBF1CF2761076100942D33 /* Frameworks */,
+				CACBF1D02761076100942D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CACBF1D42761076100942D33 /* PBXTargetDependency */,
+			);
+			name = svetoforTests;
+			productName = svetoforTests;
+			productReference = CACBF1D22761076100942D33 /* svetoforTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CACBF1DC2761076100942D33 /* svetoforUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACBF1EC2761076100942D33 /* Build configuration list for PBXNativeTarget "svetoforUITests" */;
+			buildPhases = (
+				CACBF1D92761076100942D33 /* Sources */,
+				CACBF1DA2761076100942D33 /* Frameworks */,
+				CACBF1DB2761076100942D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CACBF1DF2761076100942D33 /* PBXTargetDependency */,
+			);
+			name = svetoforUITests;
+			productName = svetoforUITests;
+			productReference = CACBF1DD2761076100942D33 /* svetoforUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACBF1B42761075200942D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CACBF1BB2761075200942D33 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CACBF1D12761076100942D33 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CACBF1BB2761075200942D33;
+					};
+					CACBF1DC2761076100942D33 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CACBF1BB2761075200942D33;
+					};
+				};
+			};
+			buildConfigurationList = CACBF1B72761075200942D33 /* Build configuration list for PBXProject "svetofor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CACBF1B32761075200942D33;
+			productRefGroup = CACBF1BD2761075200942D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACBF1BB2761075200942D33 /* svetofor */,
+				CACBF1D12761076100942D33 /* svetoforTests */,
+				CACBF1DC2761076100942D33 /* svetoforUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CACBF1BA2761075200942D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACBF1CC2761076100942D33 /* LaunchScreen.storyboard in Resources */,
+				CACBF1C92761076100942D33 /* Assets.xcassets in Resources */,
+				CACBF1C72761075200942D33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACBF1D02761076100942D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACBF1DB2761076100942D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CACBF1B82761075200942D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACBF1C42761075200942D33 /* ViewController.swift in Sources */,
+				CACBF1C02761075200942D33 /* AppDelegate.swift in Sources */,
+				CACBF1C22761075200942D33 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACBF1CE2761076100942D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACBF1D72761076100942D33 /* svetoforTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACBF1D92761076100942D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACBF1E22761076100942D33 /* svetoforUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CACBF1D42761076100942D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CACBF1BB2761075200942D33 /* svetofor */;
+			targetProxy = CACBF1D32761076100942D33 /* PBXContainerItemProxy */;
+		};
+		CACBF1DF2761076100942D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CACBF1BB2761075200942D33 /* svetofor */;
+			targetProxy = CACBF1DE2761076100942D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CACBF1C52761075200942D33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACBF1C62761075200942D33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CACBF1CA2761076100942D33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACBF1CB2761076100942D33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACBF1E42761076100942D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CACBF1E52761076100942D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CACBF1E72761076100942D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BC5UDJWT2;
+				INFOPLIST_FILE = svetofor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.svetofor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CACBF1E82761076100942D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BC5UDJWT2;
+				INFOPLIST_FILE = svetofor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.svetofor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CACBF1EA2761076100942D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BC5UDJWT2;
+				INFOPLIST_FILE = svetoforTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.svetoforTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svetofor.app/svetofor";
+			};
+			name = Debug;
+		};
+		CACBF1EB2761076100942D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BC5UDJWT2;
+				INFOPLIST_FILE = svetoforTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.svetoforTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svetofor.app/svetofor";
+			};
+			name = Release;
+		};
+		CACBF1ED2761076100942D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BC5UDJWT2;
+				INFOPLIST_FILE = svetoforUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.svetoforUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = svetofor;
+			};
+			name = Debug;
+		};
+		CACBF1EE2761076100942D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BC5UDJWT2;
+				INFOPLIST_FILE = svetoforUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.svetoforUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = svetofor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CACBF1B72761075200942D33 /* Build configuration list for PBXProject "svetofor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACBF1E42761076100942D33 /* Debug */,
+				CACBF1E52761076100942D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACBF1E62761076100942D33 /* Build configuration list for PBXNativeTarget "svetofor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACBF1E72761076100942D33 /* Debug */,
+				CACBF1E82761076100942D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACBF1E92761076100942D33 /* Build configuration list for PBXNativeTarget "svetoforTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACBF1EA2761076100942D33 /* Debug */,
+				CACBF1EB2761076100942D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACBF1EC2761076100942D33 /* Build configuration list for PBXNativeTarget "svetoforUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACBF1ED2761076100942D33 /* Debug */,
+				CACBF1EE2761076100942D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CACBF1B42761075200942D33 /* Project object */;
+}
