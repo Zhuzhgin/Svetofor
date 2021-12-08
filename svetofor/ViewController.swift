@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var redLightView: UIView!
+    
     var numberPress = 0
     
     @IBAction func buttonPress(_ sender: Any) {
